@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*--------------------------------------------Alert Bar*/
 .alert-danger{
  background-color: #f71505;
  color:#fafafa;
  text-align:center;
+ font-family: Roboto, sans-serif;
+ margin-bottom:0;
+ border-color: #f71505;
+ border-radius: 0%;
+ }
+
+ /*--------------------------------------------NAVBAR*/
+ .navbar-light{
+     background-color: #000000;
+     margin:0;
+     font-family: Roboto, sans-serif;
+     color:#fafafa;
+     text-align: left;
+     padding: 20px 20px 20px 20px;
+ }
+
+ .navbar-light a {
+    font-family: Roboto, sans-serif;
+    word-spacing: 5 px;
+
  }
