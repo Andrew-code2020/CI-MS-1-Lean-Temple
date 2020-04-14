@@ -10,6 +10,13 @@
  border-color: #f71505;
  border-radius: 0%;
  }
+ .alert-danger a{
+     color:#fafafa
+ }
+
+ a:hover {
+     color:#09e644;
+ }
 
  /*--------------------------------------------NAVBAR*/
  .navbar-light{
@@ -23,6 +30,11 @@
 
  .navbar-light a {
     font-family: Roboto, sans-serif;
-    word-spacing: 5 px;
+    word-spacing: -25 px;
+    color:#fafafa;
 
+ }
+
+ .navbar-light a:hover{
+     color:#09e644;
  }
