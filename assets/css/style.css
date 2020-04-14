@@ -14,7 +14,7 @@
      color:#fafafa
  }
 
- a:hover {
+ i:hover, a:hover {
      color:#09e644;
  }
 
@@ -30,11 +30,45 @@
 
  .navbar-light a {
     font-family: Roboto, sans-serif;
-    word-spacing: -25 px;
     color:#fafafa;
 
  }
 
+ .nav-item {
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+
+ .navbar-expand-sm .nav-item{
+   text-align: center;
+   padding-right:30px;
+   padding-left:100px;  
+ }
+
  .navbar-light a:hover{
      color:#09e644;
+ }
+/*--------------------------------------------General icons/*/
+
+i{
+    font-family: Roboto, sans-serif;
+    color:#fafafa;
+    font-size: 16px;
+}
+
+/*--------------------------------------------Footer*/
+ footer{
+     background-color:#000000;
+     font-family: Roboto, sans-serif;
+     color:#fafafa;
+     padding-bottom:20px;
+ }
+.footer-media i{
+    font-size: 36px;
+    padding-left:150px;
+}
+
+ .social-media i {
+     font-size: 36px;
+     padding-right: 30px;
  }
