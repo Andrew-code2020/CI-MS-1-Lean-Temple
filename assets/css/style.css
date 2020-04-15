@@ -54,41 +54,37 @@
 /*--------------------------------------------Section Landing page (images directory works +Source code from Whiskey drop project)/*/
 
 .jumbotron{
-    background-image:url ("../images/temple-lean-bg.jpg");
-    background-color:#f71505;
+    background-image:url("../images/temple-lean-bg.jpg");
+    background-size:100% no-repeat center fixed;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
     color:#fafafa;
+    text-shadow: 2px 2px #0f0f0f;
     font-family: Roboto, sans-serif;
     text-align:center;
+    margin-bottom:0;
+    padding-bottom: 125px;
 }
 
 
-/*---------Code below currently no functioning--- */
+/*---------Code functioning--- */
 .fitness-callout {
     background-color:#000000; 
     height: 100vh;
-    background-image: url("assets/images/temple-lean-bg.jpg") no-repeat left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    z-index: -1;
     margin-bottom:0;
 } 
-/*---------Code below currently no functioning--- */
-
-}
 
 
 /*--------------------------------------------General icons/*/
 
 i{
-    font-family: Roboto, sans-serif;
+    font-family:Roboto, sans-serif;
     color:#fafafa;
     font-size: 16px;
 }
@@ -104,6 +100,7 @@ i{
 .footer-media i{
     font-size: 36px;
     padding-left:150px;
+    color:#fafafa;
 }
 
  .social-media i {
@@ -111,4 +108,50 @@ i{
      padding-right: 30px;
  }
 
- 
+/*---------------Fitness classes page--------------*/
+
+.weight-room{
+  background-image:url("../images/weight-room-bg.jpg");
+  background-size:100% 100%; 
+  color:#fafafa;
+  text-shadow: 2px 2px #0f0f0f;
+  font-family: Roboto, sans-serif; 
+} 
+
+.cardio-gym{
+  background-image:url("../images/cardio-room.jpg");
+  background-size:100% 100%; 
+  color:#fafafa;
+  text-shadow: 2px 2px #0f0f0f;
+  font-family: Roboto, sans-serif; 
+}
+.killer-kettlebells{
+background-image:url("../images/killer-kettlebells.jpg");
+  background-size:100% 100%; 
+  color:#fafafa;
+  text-shadow: 2px 2px #0f0f0f;
+  font-family: Roboto, sans-serif; 
+}
+.grit-fitness{
+background-image:url("../images/grit-fitness.jpg");
+  background-size:100% 100%; 
+  color:#fafafa;
+  text-shadow: 2px 2px #0f0f0f;
+  font-family: Roboto, sans-serif; 
+}
+.yin-yoga{
+background-image:url("../images/yin-yoga.jpg");
+  background-size:100% 100%; 
+  color:#fafafa;
+  text-shadow: 2px 2px #0f0f0f;
+  font-family: Roboto, sans-serif;
+  max-width:100%;
+  max-height:100%;
+}
+.power-pilates{
+background-image:url("../images/power-pilates.jpg");
+  background-size:100% 100%; 
+  color:#fafafa;
+  text-shadow: 2px 2px #0f0f0f;
+  font-family: Roboto, sans-serif; 
+}
