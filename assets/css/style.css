@@ -49,6 +49,30 @@
  .navbar-light a:hover{
      color:#09e644;
  }
+
+
+/*--------------------------------------------Section Landing page (images directory works +Source code from Whiskey drop project)/*/
+
+.fitness-callout {
+    background-color:#000000; 
+    height: 100vh;
+    background-image: url("assets/images/temple-lean-bg.jpg") no-repeat left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    z-index: -1;
+} 
+
+}
+
+
 /*--------------------------------------------General icons/*/
 
 i{
