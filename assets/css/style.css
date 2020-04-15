@@ -14,7 +14,7 @@
      color:#fafafa
  }
 
- i:hover, a:hover {
+ i:hover, a:hover{
      color:#09e644;
  }
 
@@ -53,6 +53,16 @@
 
 /*--------------------------------------------Section Landing page (images directory works +Source code from Whiskey drop project)/*/
 
+.jumbotron{
+    background-image:url ("../images/temple-lean-bg.jpg");
+    background-color:#f71505;
+    color:#fafafa;
+    font-family: Roboto, sans-serif;
+    text-align:center;
+}
+
+
+/*---------Code below currently no functioning--- */
 .fitness-callout {
     background-color:#000000; 
     height: 100vh;
@@ -68,7 +78,9 @@
 
     position: relative;
     z-index: -1;
+    margin-bottom:0;
 } 
+/*---------Code below currently no functioning--- */
 
 }
 
@@ -87,6 +99,7 @@ i{
      font-family: Roboto, sans-serif;
      color:#fafafa;
      padding-bottom:20px;
+     margin-top:0;
  }
 .footer-media i{
     font-size: 36px;
