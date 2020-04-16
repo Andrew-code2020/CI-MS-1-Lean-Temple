@@ -25,20 +25,55 @@
 				<li class="nav-item"><a href="fitness-classes.html"> <i class="fas fa-dumbbell"></i> Fitness Classes
 						<!--Facilities--></a></li>
 				<li class="nav-item"><a href="trainers.html"> <i class="fas fa-user-friends"></i> Trainers</a></li>
-				<li class="nav-item"><a href="contact-us.html"> <i class="fas fa-phone-square-alt"></i> Contact us</a></li>
+				<li class="nav-item"><a href="contact-us.html"> <i class="fas fa-phone-square-alt"></i> Contact us</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<section>
-
-	
-    <p> Contact us New tab left side address (number address, email)
-     Right side form sign up </p>
-
-
-
-
+		<!----Contact us New tab left side address (number, address, email)---Right side form sign up radio buttons for classes---->
+		<div class="row container-fluid no-gutters">
+			<div class="col-sm gym-info">
+				<h2>Gym Information</h2>
+				<p>Phone Number : +353 87 999999999</p>
+				<p>Address : <a href="https://goo.gl/maps/Bhdck8S2ib1g3ekj7" target="_blank">Glen River park Ballyhooly
+						Road</a></p>
+				<p>Email: andrew@crogacoaching.com </p>
+			</div>
+			<div class="col-sm">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputName1">Name</label>
+						<input type="name" class="form-control" id="exampleInputName1" placeholder="Type your name here">
+                </div>
+						<div class="form-group">
+							<label for="exampleInputName1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email address here">
+							<small id="emailHelp" class="form-text text-muted">We'll share your email with our marketing team and send you 15 emails a day for the next 3 years.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlSelect1">Please select your fitness message option</label>
+							<select class="form-control" id="exampleFormControlSelect1">
+                                <option>Fitness Classes</option>
+                                <option>Fitness Facilities</option>
+                                <option>Message for Andrew</option>
+                                <option>Message for Julie</option>
+                                <option>Other</option>
+                            </select>
+						</div>
+						<div class="form-group">
+							<label for="validationTextarea">Fitness Message Area</label>
+							<textarea class="form-control is-valid" id="validationTextarea" placeholder="enter your message to temple lean here"></textarea>
+							<div class="valid-feedback">
+							</div>
+						</div>
+                        <div class="form-group">
+						<button type="submit" class="btn btn-primary">Send My Fitness Message To Temple Lean!!!</button>
+                        </div>
+				</form>
+			</div>
+		</div>
 	</section>
 	<footer class="container-fluid">
 		<div class="row">
@@ -46,13 +81,16 @@
 				<!--Bottom left-->
 				<h4> Contact us </h4>
 				<p>Interested in our gym why not contact us and find out more by clicking in the icon below </p>
-				<a class="footer-media" href="#"><i class="fas fa-phone-square-alt"></i><!--need to move this into center--></a>
+				<a class="footer-media" href="#"><i class="fas fa-phone-square-alt"></i>
+					<!--need to move this into center--></a>
 			</div>
 			<div class="col-sm">
 				<!--middle-->
 				<h4>Monthly Fitness Challenge</h4>
 				<p>Download our free monthly fitness challenge by clicking on the icon below</p>
-				<a class="footer-media" href="assets/downloads/lean-temple-monthly-fitness-challenge.pdf" target="_blank"><i class="fas fa-file-download"></i><!--need to move this into center--></a>
+				<a class="footer-media" href="assets/downloads/lean-temple-monthly-fitness-challenge.pdf"
+					target="_blank"><i class="fas fa-file-download"></i>
+					<!--need to move this into center--></a>
 			</div>
 
 			<div class="col-sm">
@@ -70,6 +108,7 @@
 					target="_blank"><i class="fab fa-youtube"></i></a>
 			</div>
 		</div>
+
 
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

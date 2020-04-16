@@ -51,7 +51,7 @@
  }
 
 
-/*--------------------------------------------Section Landing page (images directory works +Source code from Whiskey drop project)/*/
+/*--------------------------------------------Section Landing page ( Need to fix image in mobile deviceimages directory works + Source code from Whiskey drop project)/*/
 
 .jumbotron{
     background-image:url("../images/temple-lean-bg.jpg");
@@ -176,25 +176,42 @@ background-image:url("../images/power-pilates.jpg");
 .row{
     background-color: #000000;
 }
-.andrew-image {
+.andrew-image, .julie-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
     border-radius:50%;
+    padding-bottom:20px;
+    padding-top:20px;
 }
 
-.andrew-bio {
+.andrew-bio, .julie-bio {
 background-color: #000000;
 font-family: Roboto, sans-serif; 
 color:#fafafa;
-padding-top:50px;
-padding-left:50px;
-
+padding-top:125px;
+padding-bottom: 10px;
+padding-left:75px;
+padding-right: 10px;
+width:100%;
+justify-content: left;
 }
 
 .modal-content{
     color: #000000;
     font-family: Roboto, sans-serif;
     
+}
+
+/*---------------Contact us page--------------*/
+.gym-info h2, .gym-info p{
+color:#fafafa;
+ text-align:center;
+ font-family: Roboto, sans-serif;
+}
+
+.form-group{
+    color:#fafafa;
+    padding:15px 10px 15px 10px; 
 }
