@@ -108,15 +108,30 @@ i{
      padding-right: 30px;
  }
 
-/*---------------Fitness classes page--------------*/
+/*---------------Fitness classes page (need to complete stylling here and content here)--------------*/
 
 .weight-room{
   background-image:url("../images/weight-room-bg.jpg");
   background-size:100% 100%; 
+  filter:brightness(70%);
+  text-align:left; 
   color:#fafafa;
-  text-shadow: 2px 2px #0f0f0f;
-  font-family: Roboto, sans-serif; 
+  text-shadow: 2px 2px #f71505;
+  font-family: Roboto, sans-serif;
+  list-style-type: none; 
 } 
+
+h1, h3{
+  color: #fafafa;
+  text-shadow: 2px 2px #f71505;
+  font-family: Roboto, sans-serif; 
+  filter:brightness(150%);   
+}
+
+ul{
+    list-style-type: none; 
+    filter:brightness(200%)
+}
 
 .cardio-gym{
   background-image:url("../images/cardio-room.jpg");
