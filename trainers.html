@@ -25,14 +25,62 @@
 				<li class="nav-item"><a href="fitness-classes.html"> <i class="fas fa-dumbbell"></i> Fitness Classes
 						<!--Facilities--></a></li>
 				<li class="nav-item"><a href="trainers.html"> <i class="fas fa-user-friends"></i> Trainers</a></li>
-				<li class="nav-item"><a href="contact-us.html"> <i class="fas fa-phone-square-alt"></i> Contact us</a></li>
+				<li class="nav-item"><a href="contact-us.html"> <i class="fas fa-phone-square-alt"></i> Contact us</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<section>
-
-          Trainers - Modal Bootstrap click on picture to reveal more information on trainer
+		<!----Trainers - Modal Bootstrap click on picture to reveal more information on trainer----->
+		<div class="row">
+			<div class="col-sm-6">
+				<img class="andrew-image" src="assets/images/andrew-lean-temple.jpg">
+				
+			</div>
+			<div class="col-sm-6 andrew-bio">
+				<h4>Name : Andrew Burns BSc MSc</h4>
+				<h4>Qualifications</h4>
+				<p>
+					<ul>
+						<li>MSc</li>
+						<li>BSc</li>
+						<li>CSPS</li>
+					</ul>
+				</p>
+				<h4>Classes Coached</h4>
+				<p>
+					<ul>
+						<li>Grit Fitness</li>
+						<li>Kettlebells</li>
+					</ul>
+				</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+  Click here for more information on Andrew
+</button>
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+					aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Andrew Burns</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+							</div>
+							<div class="modal-body">
+								Andrew has run 7 Full Marathons. 5 in Dublin and 2 in Cork.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">I like this about Andrew ;-)</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 	</section>
@@ -42,13 +90,16 @@
 				<!--Bottom left-->
 				<h4> Contact us </h4>
 				<p>Interested in our gym why not contact us and find out more by clicking in the icon below </p>
-				<a class="footer-media" href="#"><i class="fas fa-phone-square-alt"></i><!--need to move this into center--></a>
+				<a class="footer-media" href="#"><i class="fas fa-phone-square-alt"></i>
+					<!--need to move this into center--></a>
 			</div>
 			<div class="col-sm">
 				<!--middle-->
 				<h4>Monthly Fitness Challenge</h4>
 				<p>Download our free monthly fitness challenge by clicking on the icon below</p>
-				<a class="footer-media" href="assets/downloads/lean-temple-monthly-fitness-challenge.pdf" target="_blank"><i class="fas fa-file-download"></i><!--need to move this into center--></a>
+				<a class="footer-media" href="assets/downloads/lean-temple-monthly-fitness-challenge.pdf"
+					target="_blank"><i class="fas fa-file-download"></i>
+					<!--need to move this into center--></a>
 			</div>
 
 			<div class="col-sm">

@@ -170,3 +170,31 @@ background-image:url("../images/power-pilates.jpg");
   text-shadow: 2px 2px #0f0f0f;
   font-family: Roboto, sans-serif; 
 }
+
+/*---------------Trainers page--------------*/
+
+.row{
+    background-color: #000000;
+}
+.andrew-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius:50%;
+}
+
+.andrew-bio {
+background-color: #000000;
+font-family: Roboto, sans-serif; 
+color:#fafafa;
+padding-top:50px;
+padding-left:50px;
+
+}
+
+.modal-content{
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    
+}
