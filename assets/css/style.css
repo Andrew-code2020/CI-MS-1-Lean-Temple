@@ -115,12 +115,8 @@ i{
 .weight-room{
   background-image:url("../images/weight-room-bg.jpg");
   background-size:100% 100%; 
-  filter:brightness:(90%);
-  text-align:left; 
-  color:#fafafa;
-  text-shadow: 3px 2px #000000;
-  font-family: Roboto, sans-serif;
-  list-style-type: none; 
+  filter:brightness (90%);
+  width:100%;
 } 
 
 .weight-room .weight-room-dpdm{
@@ -128,7 +124,7 @@ i{
   font-family: Roboto, sans-serif;
   max-width: 300px;
   text-shadow: 0px 0px #000000;
-  text-align:left;
+  padding:10px 10px 10px 10px;
 
 }
 
