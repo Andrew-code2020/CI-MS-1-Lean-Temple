@@ -26,23 +26,22 @@
      color:#fafafa;
      text-align: left;
      padding: 20px 20px 20px 20px;
+     width:100%;
  }
 
  .navbar-light a {
     font-family: Roboto, sans-serif;
     color:#fafafa;
-
  }
 
 .nav-item {
     padding-left: 50px;
     padding-right: 50px;
-
  }
 
 .navbar-expand-sm .nav-item{
    text-align:center;
-   padding-right:30px;
+   padding-right:50px;
    padding-left:100px;  
  }
 
@@ -50,6 +49,14 @@
      color:#09e644;
  }
 
+/*--------Div left white "gutter" far left and right outside nav bar*/
+.black-bar{
+background-color:#000000;
+}
+
+.navbar-toggler-icon{
+    background-color:#f71505;
+}
 
 /*--------------------------------------------Section Landing page ( Need to fix image in mobile deviceimages directory works + Source code from Whiskey drop project)/*/
 
@@ -108,13 +115,22 @@ i{
 .weight-room{
   background-image:url("../images/weight-room-bg.jpg");
   background-size:100% 100%; 
-  filter:brightness(70%);
+  filter:brightness:(90%);
   text-align:left; 
   color:#fafafa;
-  text-shadow: 2px 2px #f71505;
+  text-shadow: 3px 2px #000000;
   font-family: Roboto, sans-serif;
   list-style-type: none; 
 } 
+
+.weight-room .weight-room-dpdm{
+  color:#000000;
+  font-family: Roboto, sans-serif;
+  max-width: 300px;
+  text-shadow: 0px 0px #000000;
+  text-align:left;
+
+}
 
 h1, h3{
   color: #fafafa;
