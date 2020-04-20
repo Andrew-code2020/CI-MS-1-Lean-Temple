@@ -22,7 +22,7 @@ I am a current user of Temple and I want to check the opening hours. I see Templ
 ###### User Story 
 I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on fitness classes see the initial information on their get fitness classes. I click the dropdown menu to check their prices
 
-### Featuresi
+### Features
 *Easy navigation - The Bar at the top is similar to conventional nav bars allowing the user an intuitive experience in a perhaps unfamiliar service setting
 
 ##### Existing Features
@@ -32,14 +32,16 @@ I am new to the area and I am interested in checking out/attending a local fitne
 *live chat
 *pay for membership and classes online
 *SEO
+*analytics that show user traffic
 
 ### Technologies Used
-*HTML
-*CSS 
-*Bootstrap
+*HTML5
+*CSS3 
+*Bootstrap https://getbootstrap.com/
 *Github and Gitpod
 
 ### Testing
+
 ### Deployment
 ### Credits
 ##### Content
