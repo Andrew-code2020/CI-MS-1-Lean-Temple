@@ -126,22 +126,18 @@ ul{
 }
 
 /*-----Fitness Classes and Facilities---*/
+
+h2{
+    text-decoration: underline;
+}
+
 .weight-room{
   background-image:url("../images/weight-room-bg.jpg");
   background-size:100% 100%; 
   filter:brightness (80%);
-  color:#fafafa; 
+  color:#ffffff; 
   text-shadow:2px 2px #f71505 ;
     
-}
-
-.weight-room .weight-room-dropdown, .cardio-gym .cardio-gym-dropdown {
-    color:#000000;
-    font-family: Roboto, sans-serif;
-    text-shadow:none;
-    max-width: 200px;
-    padding: 10px 10px 10px 10px;
-    height:200px;
 }
 
 .cardio-gym{
@@ -154,28 +150,47 @@ ul{
 
 .killer-kettlebells{
 background-image:url("../images/killer-kettlebells.jpg");
-  background-size:100% 100%; 
+  background-size:100% 100%;
+  filter:brightness (80%);
+  color:#fafafa; 
+  text-shadow:2px 2px #f71505 ; 
    
 }
 .grit-fitness{
 background-image:url("../images/grit-fitness.jpg");
   background-size:100% 100%; 
+  filter:brightness (80%);
+  color:#fafafa; 
+  text-shadow:2px 2px #f71505 ;
 }
 
 .yin-yoga{
 background-image:url("../images/yin-yoga.jpg");
-  background-size:100% 100%; 
- 
+  background-size:100% 100%;
+  filter:brightness (80%);
+  color:#fafafa; 
+  text-shadow:2px 2px #f71505; 
 }
+
 .power-pilates{
 background-image:url("../images/power-pilates.jpg");
-  background-size:100% 100%;  
+  background-size:100% 100%;
+  filter:brightness (80%);
+  color:#fafafa; 
+  text-shadow:2px 2px #f71505;  
 }
+
+.weight-room .weight-room-dropdown, .cardio-gym .cardio-gym-dropdown, .yin-yoga .yin-yoga-dpd, .killer-kettlebells .killer-kettlebells-dpd{
+    color:#000000;
+    font-family: Roboto, sans-serif;
+    text-shadow:none;
+    max-width: 200px;
+    padding: 10px 10px 10px 10px;
+    height:200px;
 
 /*---------------Trainers page--------------*/
 
-.row{
-    background-color: #000000;
+.row {background-color: #000000;
 }
 .andrew-image, .julie-image {
     width: 100%;

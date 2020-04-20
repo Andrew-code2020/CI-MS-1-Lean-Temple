@@ -2,9 +2,10 @@
 Code institute milestone project MS projects Gym
 Temple Lean is a small sole trader style fitness facility
 
-The key reasons for producing a wesbite were;
+The key reasons for producing the website were;
 * help current users learn about the fitness facility (Temple Lean)
 * help new potential users learn about the fitness facility (Temple Lean)
+* help new potential users connect easily the fitness facility (Temple Lean)
 * help the gym owner attract and retain clients
 
 ### UX
@@ -16,14 +17,16 @@ Route to wireframe pics in github repository
 *README docs/wf-pic-4.jpg
 
 ###### User Story 1
-I am a current user of Temple and I want to check the opening hours. I see Temple Lean has a new website. I log on go to contact us and just as I about to email I see the information on the left of the contact us section. 
+I am a current user of Temple and I want to check the opening hours. I see Temple Lean has a new website. I search fot Temple Lean on the net go to contact us and just as I about to email I see the information on the left of the contact us section. 
 
-###### User Story 2
-I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps with there wesbite providing information on theirgit fitness classes.
+###### User Story 
+I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on fitness classes see the initial information on their get fitness classes. I click the dropdown menu to check their prices
 
-### Features
+### Featuresi
+*Easy navigation - The Bar at the top is similar to conventional nav bars allowing the user an intuitive experience in a perhaps unfamiliar service setting
 
 ##### Existing Features
+*Internal links to different parts of the website
 
 ##### Features Left to Implement
 *live chat
