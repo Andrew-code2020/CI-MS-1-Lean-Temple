@@ -129,21 +129,27 @@ ul{
 .weight-room{
   background-image:url("../images/weight-room-bg.jpg");
   background-size:100% 100%; 
-  filter:brightness (90%); 
+  filter:brightness (80%);
+  color:#fafafa; 
+  text-shadow:2px 2px #f71505 ;
+    
 }
 
 .weight-room .weight-room-dropdown, .cardio-gym .cardio-gym-dropdown {
     color:#000000;
     font-family: Roboto, sans-serif;
     text-shadow:none;
-    max-width:200px;
+    max-width: 200px;
     padding: 10px 10px 10px 10px;
-    height:100vh;
+    height:200px;
 }
 
 .cardio-gym{
   background-image:url("../images/cardio-room.jpg");
-  background-size:100% 100%;  
+  background-size:100% 100%;
+  filter:brightness (80%);
+  color:#fafafa; 
+  text-shadow:2px 2px #f71505 ;  
 }
 
 .killer-kettlebells{

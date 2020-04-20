@@ -18,8 +18,8 @@ Route to wireframe pics in github repository
 ###### User Story 1
 I am a current user of Temple and I want to check the opening hours. I see Temple Lean has a new website. I log on go to contact us and just as I about to email I see the information on the left of the contact us section. 
 
-###### User Story 1
-I am new to the area and I am interested in checking out a fitness class.I browse the web and find Temple Lean's location listed on google maps with there wesbite providing information on their fitness classes.
+###### User Story 2
+I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps with there wesbite providing information on theirgit fitness classes.
 
 ### Features
 
@@ -31,9 +31,18 @@ I am new to the area and I am interested in checking out a fitness class.I brows
 *SEO
 
 ### Technologies Used
+*HTML
+*CSS 
+*Bootstrap
+*Github and Gitpod
+
 ### Testing
 ### Deployment
 ### Credits
 ##### Content
+
 ##### Media
+The photos used in this site were obtained from pexels.com and photos in my personal library.
+
 ##### Acknowledgements
+I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas
