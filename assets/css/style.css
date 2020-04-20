@@ -10,6 +10,7 @@
  border-color: #f71505;
  border-radius: 0%;
  }
+ 
  .alert-danger a{
      color:#fafafa
  }
@@ -187,6 +188,7 @@ background-image:url("../images/power-pilates.jpg");
     max-width: 200px;
     padding: 10px 10px 10px 10px;
     height:200px;
+}
 
 /*---------------Trainers page--------------*/
 
