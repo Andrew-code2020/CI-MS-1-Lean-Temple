@@ -23,12 +23,12 @@ I am a current user of Temple and I want to check the opening hours. I see Templ
 ###### User Story 2
 I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on fitness classes see the initial information on their get fitness classes. I click the dropdown menu to check their prices
 
-*Original Wireframe link - https://marvelapp.com/22c13906
+* Original Wireframe link - https://marvelapp.com/22c13906
 Route to wireframe pics in github repository 
-*README docs/wf-pic-1.jpg
-*README docs/wf-pic-2.jpg
-*README docs/wf-pic-3.jpg
-*README docs/wf-pic-4.jpg
+* README docs/wf-pic-1.jpg
+* README docs/wf-pic-2.jpg
+* README docs/wf-pic-3.jpg
+* README docs/wf-pic-4.jpg
 
 
 ### Features
@@ -53,10 +53,10 @@ Route to wireframe pics in github repository
 * analytics that show user traffic flow
 
 ### Technologies Used
-*HTML5
-*CSS3 
-*Bootstrap https://getbootstrap.com/
-*Github and Gitpod
+* HTML5
+* CSS3 
+* Bootstrap https://getbootstrap.com/
+* Github and Gitpod
 
 ### Testing
 
@@ -69,7 +69,7 @@ Contact us
 *  Verify that we are directed to the contact us page opens with basic gym information on the left and a form to fill out on the right
 
 Fitness challenge
-* Go to the "Home/Landing" page
+*  Go to the "Home/Landing" page
 *  Click on download fitness challenge button
 *  Verify that a new tab opens and pdf of this months fitness challenge appears
 
@@ -102,10 +102,11 @@ Links to Social Media
 ### Credits
 
 ##### Content
-The content was constucted by the developer in line with inspiration from their experience in the Fitness Industry.
+* The content was constucted by the developer in line with inspiration from their experience in the Fitness Industry.
 
 ##### Media
-The photos used in this site were obtained from pexels.com and photos in my personal library.
+* The photos used in this site were obtained from pexels.com and photos in my personal library.
 
 ##### Acknowledgements
-I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas
+* I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas.
+* I reviewed the following websites for ideas on problems I encountered throughout the project.
