@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-/*--------------------------------------------Alert Bar*/
-.alert-danger{
+/*--------------------------------------------Alert Bar--------------------------------*/
+.alert-danger
+{
  background-color: #f71505;
  color:#fafafa;
  text-align:center;
@@ -35,20 +36,25 @@
     color:#fafafa;
  }
 
-.nav-item {
-    padding-left: 50px;
-    padding-right: 50px;
+
+@media only screen and (min-width: 768px) 
+{
+    .nav-item {padding-left: 60px;}
+    .nav-item {padding-right: 90px;}
  }
 
+ /*--------------ask about leaving this out of the mobile version @media only screen and (max-width: 768px)
+ {.drop-search, .nav-item} ------*/
+
 .navbar-expand-sm .nav-item{
-   text-align:center;
-   padding-right:50px;
-   padding-left:100px;  
+   text-align:left;
+   padding-top: 5px;
  }
 
  .navbar-light a:hover{
      color:#09e644;
  }
+
 
 /*--------Div left white "gutter" far left and right outside nav bar*/
 .black-bar{
@@ -113,8 +119,7 @@ i{
 
 /*---------------Fitness classes page (need to complete styling here and content here)--------------*/
 /*------General Housekeeping---*/
-
-h1, h3{
+ h3{
   color: #fafafa;
   text-shadow: 2px 2px #f71505;
   font-family: Roboto, sans-serif; 
@@ -185,23 +190,22 @@ background-image:url("../images/power-pilates.jpg");
     color:#000000;
     font-family: Roboto, sans-serif;
     text-shadow:none;
-    max-width: 200px;
+    max-width: 250px;
     padding: 10px 10px 10px 10px;
-    height:200px;
+    height:250px;
 }
 
-/*---------------Trainers page--------------*/
+/*---------------------------------------------Trainers page-------------------------------------------------------------*/
 
-.row {background-color: #000000;
-}
 .andrew-image, .julie-image {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
     overflow: hidden;
     border-radius:50%;
     padding-bottom:20px;
     padding-top:20px;
+    padding-left:20px;
 }
 
 .andrew-bio, .julie-bio {

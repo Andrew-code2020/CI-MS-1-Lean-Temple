@@ -39,6 +39,8 @@ Route to wireframe pics in github repository
 * Section - The middle section rotates on each page and gives basic information on each Temple Lean service
 * Jumbotron - The eye catching landing page designed to convey that the user has arrived at the virtual front door of Temple Lean
 * Dropdown - We tried to avoid displaying too much word information at one time. Our audience indicated a preference of small relevant bite size information
+* Hover - icons, internal and external links all turn green when the cursor hovers over them
+* Icons - font awesome were used to add style and an intuitive feel to the user experience
 
 ##### Existing Features
 * Internal links to different parts of the website
@@ -58,12 +60,39 @@ Route to wireframe pics in github repository
 
 ### Testing
 
-Landing page:
+####Landing page:
+#####Section
+
+Contact us
+*  Go to the Temple Lean "Home/Landing" page
+*  Click on the "Contact Us Button"
+*  Verify that we are directed to the contact us page opens with basic gym information on the left and a form to fill out on the right
 
 Fitness challenge
-* Go to the "Home" page
-*  Click on download button
+* Go to the "Home/Landing" page
+*  Click on download fitness challenge button
 *  Verify that a new tab opens and pdf of this months fitness challenge appears
+
+#####Footer
+Contact us
+*  Go to the Temple Lean "Home/Landing" page
+*  Scroll to the Footer
+*  Click on the "Contact Us icon" in the bottom left corner
+*  Verify that we are directed to the contact us page which opens opens with basic gym information on the left and a form to fill out on the right
+
+Fitness challenge
+*  Go to the "Home/Landing" page
+*  Scroll down to the Footer
+*  Click on download icon
+*  Verify that a new tab opens and pdf of this months fitness challenge appears
+
+Links to Social Media
+*  Go to the "Home/Landing" page
+*  Scroll down to the Footer
+*  Click on each social media icon
+*  Verify that a new tab opens and that relevant social media account appears
+
+
 
 * Project was built with mobile first design principles
 
