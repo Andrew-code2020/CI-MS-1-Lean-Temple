@@ -18,7 +18,7 @@ It was an objective of that website to include an intuitive design which would a
 This information proved invaluable during the construction of wireframes for the website. At the outset conventional web design features were favoured.
 
 ###### User Story 1
-I am a current user of Temple and I want to check the opening hours. I see Temple Lean has a new website. I search fot Temple Lean on the net go to contact us and just as I about to email I see the information on the left of the contact us section. 
+I am a current user of Temple and I want to check the opening hours. I see Temple Lean has a new website. I search for Temple Lean on the net go to contact us and just as I am about to email them through their contact us section I see the information on the left of the contact us section. 
 
 ###### User Story 2
 I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on fitness classes see the initial information on their get fitness classes. I click the dropdown menu to check their prices
@@ -32,20 +32,23 @@ Route to wireframe pics in github repository
 
 
 ### Features
-*Easy navigation - The Bar at the top of each page is similar to conventional nav bars allowing the user an intuitive experience in a perhaps unfamiliar service setting. We maintained this nav bar across each page for ease of navigation.
-*Alert Bar - Normally a special offer sales bar with the ongoing COVID-19 pandemic we decided to direct our users to online videos
-*Footer - Linked to Social Media and our free monthly challenge
-*Section - The middle section rotates on each page and gives basic information on each Temple Lean service
-*Jumbotron - The eye catching landing page designed to convey that the user has arrived at the virtual front door of Temple Lean
-*dropdown - We tried to avoid displaying too much word information at one time. Our audience indicated a preference of small relevant bite size information
+* Header - Contains our Alert Bar and Nav bar
+* Easy navigation - The Bar at the top of each page is similar to conventional nav bars allowing the user an intuitive experience in a perhaps unfamiliar service setting. We maintained this nav bar across each page for ease of navigation.
+* Alert Bar - Normally a special offer sales bar with the ongoing COVID-19 pandemic we decided to direct our users to online videos
+* Footer - Linked to Social Media and our free monthly challenge
+* Section - The middle section rotates on each page and gives basic information on each Temple Lean service
+* Jumbotron - The eye catching landing page designed to convey that the user has arrived at the virtual front door of Temple Lean
+* Dropdown - We tried to avoid displaying too much word information at one time. Our audience indicated a preference of small relevant bite size information
+
 ##### Existing Features
-*Internal links to different parts of the website
+* Internal links to different parts of the website
 
 ##### Features Left to Implement
-*live chat
-*pay for membership and classes online
-*SEO
-*analytics that show user traffic
+* live chat
+* FAQ - Featuring gym etiquette and rules
+* pay for membership and classes online
+* Search Engine Optimisation
+* analytics that show user traffic flow
 
 ### Technologies Used
 *HTML5
@@ -55,9 +58,22 @@ Route to wireframe pics in github repository
 
 ### Testing
 
+Landing page:
+
+Fitness challenge
+* Go to the "Home" page
+*  Click on download button
+*  Verify that a new tab opens and pdf of this months fitness challenge appears
+
+* Project was built with mobile first design principles
+
 ### Deployment
+* This project is hosted in github repository. It was developed using Git pod
+
 ### Credits
+
 ##### Content
+The content was constucted by the developer in line with inspiration from their experience in the Fitness Industry.
 
 ##### Media
 The photos used in this site were obtained from pexels.com and photos in my personal library.
