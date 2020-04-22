@@ -16,9 +16,11 @@
      color:#fafafa
  }
 
- i:hover, a:hover{
+i:hover, a:hover{
      color:#09e644;
+     text-decoration: none;
  }
+ 
 
  /*--------------------------------------------NAVBAR*/
  .navbar-light{
@@ -99,37 +101,31 @@ i{
 }
 
 /*--------------------------------------------Footer*/
- footer{
+ 
+footer{
      background-color:#000000;
      font-family: Roboto, sans-serif;
      color:#fafafa;
      padding-bottom:20px;
      margin-top:0;
  }
-.footer-media i{
+
+.footer-media i {
     font-size: 36px;
     padding-left:150px;
     color:#fafafa;
 }
 
- .social-media i {
+.social-media i {
      font-size: 36px;
      padding-right: 30px;
- }
+}
+
+.footer-media i:hover {
+color:#09e644;
+}
 
 /*---------------Fitness classes page (need to complete styling here and content here)--------------*/
-/*------General Housekeeping---*/
- h3{
-  color: #fafafa;
-  text-shadow: 2px 2px #f71505;
-  font-family: Roboto, sans-serif; 
-  filter:brightness(150%);   
-}
-
-ul{
-    list-style-type: none; 
-    filter:brightness(100%);
-}
 
 /*-----Fitness Classes and Facilities---*/
 
@@ -237,4 +233,18 @@ color:#fafafa;
 .form-group{
     color:#fafafa;
     padding:15px 10px 15px 10px; 
+}
+
+/*------General Housekeeping---*/
+
+ h3{
+  color: #fafafa;
+  text-shadow: 2px 2px #f71505;
+  font-family: Roboto, sans-serif; 
+  filter:brightness(150%);   
+}
+
+ul{
+    list-style-type: none; 
+    filter:brightness(100%);
 }
