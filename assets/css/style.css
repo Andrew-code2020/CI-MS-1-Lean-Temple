@@ -31,6 +31,7 @@ i:hover, a:hover{
      text-align: left;
      padding: 20px 20px 20px 20px;
      width:100%;
+     border-bottom: 2px solid #f71505;
  }
 
  .navbar-light a {
@@ -55,6 +56,10 @@ i:hover, a:hover{
 
  .navbar-light a:hover{
      color:#09e644;
+ }
+
+ .navbar-nav .current{
+     background-color: #f71505;
  }
 
 
@@ -100,7 +105,7 @@ i{
     font-size: 16px;
 }
 
-/*--------------------------------------------Footer*/
+/*--------------------------------------------Footer-------------------------------------------------------*/
  
 footer{
      background-color:#000000;
@@ -108,6 +113,8 @@ footer{
      color:#fafafa;
      padding-bottom:20px;
      margin-top:0;
+     border-top: 2px solid #f71505;
+
  }
 
 .footer-media i {
@@ -201,7 +208,8 @@ background-image:url("../images/power-pilates.jpg");
     border-radius:50%;
     padding-bottom:10px;
     padding-top:20px;
-    padding-left:20px;
+    padding-left:10px;
+    margin-bottom:0;
 }
 
 @media only screen and (max-width: 600px)
@@ -213,8 +221,7 @@ background-image:url("../images/power-pilates.jpg");
     overflow: hidden;
     border-radius:50%;
     padding-bottom:10px;
-    padding-top:10px;
-    padding-left:20px; 
+    padding-top:10px; 
 }
 }
 
@@ -237,12 +244,17 @@ justify-content: center;
 }
 
 /*---------------Contact us page--------------*/
-.gym-info h2, .gym-info p{
+.color-bg{
+  background-color: #f71505;  
+}
+
+.gym-info h2, .gym-info p, .gym-info a{
 color:#fafafa;
  text-align:center;
  font-family: Roboto, sans-serif;
  padding-top: 15px;
 }
+
 
 .form-group{
     color:#fafafa;

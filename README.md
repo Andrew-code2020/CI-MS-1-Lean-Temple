@@ -64,7 +64,7 @@ Route to wireframe pics in github repository
 
 ### Testing
 
-
+Testing Browsers and screens you tested it on
 
 ####Landing page:
 #####Section
@@ -103,15 +103,16 @@ Links to Social Media
 * Project was built with mobile first design principles
 
 ### Deployment
+* Deployment project on Github
 * This project is hosted in github repository. It was developed using Git pod
 
 ### Credits
 
 ##### Content
-* The content was constucted by the developer in line with inspiration from their experience in the Fitness Industry.
+* The content was constucted by the student in line with inspiration from their experience as a fitness professional over 10 years.
 
 ##### Media
-* The photos used in this site were obtained from pexels.com and photos in my personal library.
+* The photos used in this site were obtained from pexels.com and photos in the students personal library.
 
 ##### Acknowledgements
 * I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas.
