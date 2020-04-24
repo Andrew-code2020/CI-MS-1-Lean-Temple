@@ -207,7 +207,7 @@ background-image:url("../images/power-pilates.jpg");
 
 .andrew-image, .julie-image {
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
     border-radius:50%;
@@ -216,21 +216,6 @@ background-image:url("../images/power-pilates.jpg");
     padding-left:10px;
     margin-bottom:0;
 }
-/*---------------------------------------------Trying to add media queries to bio and picture-------------------------------------------------------------*/
-@media only screen and (max-width: 600px)
-{.andrew-bio
-{
-   background-color: #000000;
-font-family: Roboto, sans-serif; 
-color:#fafafa;
-padding-top:10px;
-padding-bottom: 10px;
-padding-left:50px;
-padding-right: 10px;
-width:100%;
-justify-content: center;
-}
-}
 
 .andrew-bio, .julie-bio {
 background-color: #000000;
@@ -238,10 +223,11 @@ font-family: Roboto, sans-serif;
 color:#fafafa;
 padding-top:25px;
 padding-bottom: 10px;
-padding-left:25px;
+padding-left:50px;
 padding-right: 10px;
 width:100%;
 justify-content: center;
+margin-top: 50px;
 }
 
 .modal-content{
