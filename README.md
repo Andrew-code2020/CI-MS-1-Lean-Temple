@@ -134,21 +134,35 @@ Links to Social Media
 
 
 ####Fitness Classes page:
-Links to Fitness Classes
+Fitness Classes
 *  Go to the "Fitness Classes" page
-*  Verify that when you click each dropdown menu more information appears for each of the following services "Free Weight Altar Cardio Chapel, Kettlebell and Grit Class & Yin Yoga and Power Pilates  
-*  Click on each social media icon
-*  Verify that a new tab opens and that relevant social media platform and account appears
+*  Verify that when you click each dropdown menu more information appears for each of the following services "Free Weight Altar Cardio Chapel, Kettlebell and Grit Class & Yin Yoga and Power Pilates"  
 
 ####Trainers page:
+Trainers page
+*  Go to the "Trainers" page
+*  Verify that when you click on each modal button more information appears for each of the following trainers "Andrew Burns & Julie O' Leary"  
 
-####Contact Us:
+
+####Contact Us page:
+
+Contact Us page
+*  Go to the "Contact Us" page
+*  Verify that when you click on the map pin that a new tab opens to google maps with the location of the gym. This is a fake location.  
+
+Contact Us page
+*  Go to the "Contact Us" page
+*  Verify that when you enter details into the Temple Lean Contact Us Form that a name and email address are required
+*  Verify that message direction options exist in the drop down menu
+*  Verify that you can enter details into the Temple Lean Contact Us Form and hit Send My Fitness Message to Temple Lean!. Note the form is non functional at this time.
+
 
 * Project was built with mobile first design principles
 
 ### Deployment
 * Deployment project on Github
-* This project is hosted in github repository. It was developed using Git pod
+* This project is hosted in github repository. It was developed using Gitpod Links to repository https://github.com/Andrew-code2020/CI-MS-1-Lean-Temple
+* Open link to project static website  https://andrew-code2020.github.io/CI-MS-1-Lean-Temple/
 
 ### Credits
 

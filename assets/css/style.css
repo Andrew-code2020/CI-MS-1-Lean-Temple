@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-/*--------------------------------------------Alert Bar--------------------------------*/
+/*--------------------------------------------Header Alert Bar--------------------------------*/
 .alert-danger
 {
  background-color: #f71505;
@@ -236,9 +236,15 @@ margin-top: 50px;
     
 }
 
-/*---------------Contact us page--------------*/
+/*-----------------------------------------Contact us page-----------------------------------------------------------*/
+
+/*----------Try adding a border to the section on this page-----------------------------------------------------------*/
+
 .color-bg{
-  background-color: #f71505;  
+  background-color: #000000;
+  border-color: 2px solid #f71505; 
+  border-left-color: #f71505;
+  border-right-color: #f71505;  
 }
 
 .gym-info h2, .gym-info p, .gym-info a{
