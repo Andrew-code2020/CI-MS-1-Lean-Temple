@@ -168,9 +168,15 @@ Contact Us page
 I consulted the following websites for inspiration and to learn how implement certain features into my project; 
 * https://stackoverflow.com/
 * https://www.w3schools.com/default.asp
+* I copied the Jumbtron idea from our code along whiskey drop project. But I used the Bootrap code to and then modified it to fit the style of this project https://andrew-code2020.github.io/whiskeydrop/
+* I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project.
+* I frequently referred back to the following code institute modules to research how to construct certain features
+  * HTML Fundamentals
+  * CSS Fundamentals
+  * USer Centric Front End Development 
 
 ##### Content
-* The content was constucted by the student in line with inspiration from their experience as a fitness professional over 10 years.
+* The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is entirely fictional and none of it really exists.
 
 ##### Media
 * The photos used in this site were obtained from pexels.com and photos in the students personal library.
