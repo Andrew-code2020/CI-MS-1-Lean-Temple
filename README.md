@@ -1,12 +1,12 @@
 # Temple Lean
-Code institute milestone project MS projects Gym
+Code institute milestone project - Construct a Gym Website
 
 Temple Lean is a small sole trader style fitness facility at the heart of Cork City Ireland. Temple Lean prides itself on high quality client fitness services and classes.
-Temple Lean currently caters for young professional clients usually aged 18-45 years. General (on the floor of the gym) and survey feedback has indicated that an online platform is needed to help retain existing business and open up new leads to potential clients.
+Temple Lean currently caters for young professional clients usually aged 18-45 years. General (on the floor of the gym) and survey feedback has indicated that an online platform is needed to help retain existing business, compete with other online fitness platforms and open up new leads to potential clients.
 Recently the Corporate Ireland market along with strong emphasis from state bodies on physical activity has lead to increased demand for services at Temple Lean. To ensure good customer relations management and clean flow of services a website is considered a top priority for Temple Lean. 
 
 ### UX
-The key reasons for producing the website were;
+The key reasons for producing the website were to;
 * help current users learn about the fitness facility Temple Lean
 * help new potential users learn easily about the fitness services Temple Lean offer
 * help new potential users connect and communicate easily with the team at Temple Lean
@@ -15,16 +15,28 @@ The key reasons for producing the website were;
 
 At the outset the minimum viable product was determined to be a communication platform between the owner/operator(s) of Temple Lean and the current clients. 
 It was an objective of that website to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior engagement with Temple Lean and it's services. Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users. 
-This information was incredibly valuable during the construction of wireframes for the website. At the outset conventional web design features were favoured.The vision for the project was to have a website that displayed basic information on Temple Lean services but that offered quick access to open communication with Temple Lean. 
+This information was incredibly valuable during the construction of wireframes for the website. At the outset conventional web design features were favoured.The vision for the project was to have a website that displayed basic information on Temple Lean services but that offered quick access to open a communication channel with Temple Lean. 
 
 ###### User Story 1
-I am a current user of Temple and I want to check the opening hours. I see Temple Lean has a new website. I search for Temple Lean on the net go to contact us and just as I am about to email them through their contact us section I see the information on the left of the contact us section. I note the information and at within those hours. 
+I am a current user of Temple Lean and I want to check the opening hours. I know Temple Lean has launched a new website. I search for Temple Lean on the net go to contact us and just as I am about to email them through their contact us section I see the information on the left of the contact us section. I note the information and attend within those hours. 
 
 ###### User Story 2
-I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on fitness classes see the initial information on their get fitness classes. I click the dropdown menu to check their prices
+I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on the fitness classes page and see the initial information on their get fitness classes. I click the dropdown menu to check their prices.
 
 ###### User Story 3
 I normally attend a yin joga class at Temple Lean on Monday at 6pm. This week I won't be able to make it due to a last minute emergency. I quickly log onto the Temple Lean website go to contact us. In put my information on the form select message for Julie on the options menu and hit send my fitness message to Temple Lean.
+
+###### User Questions
+  * Where am I? 
+    * On each page the Nav Bar highlights that page in red. This helps you locate where you are on the Temple Lean site 
+ * How did I get here?
+   * Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Temple Leans Free Monthly Fitness challenge or it's social media platforms.
+   * The nav bar and footer are the exact same on each page and with current page highlighted red in the nav bar the user is able to easily identify where they came from.  
+ * What can I do here?
+   * The user is invited clearly to click on and then access various features of the Temple Lean website.
+ * Where can I go from here?
+   * The nav bar and footer are the exact same on each page and with current page highlighted red in the nav bar the user is able to easily identify where they are and where they can go from here. The green hover is also designed to indicate to the user they can click on this element and access further content. 
+
 
 * Original Wireframe link - https://marvelapp.com/22c13906
 Route to wireframe pics in github repository 
@@ -44,6 +56,7 @@ Route to wireframe pics in github repository
 * Section  
 * Jumbotron  
 * Dropdown Menu  
+* Modal
 * Hover  
 * Icons 
 * Search Bar 
@@ -59,18 +72,20 @@ Route to wireframe pics in github repository
 * Section - The middle section rotates on each page and gives basic information on each Temple Lean service
 * Jumbotron - The eye catching landing page designed to convey that the user has arrived at the virtual front door of Temple Lean
 * Dropdown - We tried to avoid displaying too much word information at one time. Our audience indicated a preference of small relevant bite size information
+* Modal - The Modal allows the user to access further information on our trainers. It pops and displays further background information them.
 * Hover - icons, internal and external links all turn green when the cursor hovers over them
 * Icons - font awesome icons were used to add style and an intuitive feel to the user experience
 * Search Bar - We wanted people to be able to search our page for content. This feature is non functional right now in line with the limits of the project.
 * Contact Form - We wanted people to be able to send us basic infromation and a message. This feature is non functional right now in line with the limits of the project.
 
 ##### Features Left to Implement
-* live chat
+* Live chat
+* Blog 
 * Current spaces in the class
 * FAQ - Featuring gym etiquette and rules
-* pay for membership and classes online
+* Pay for membership and classes online
 * Search Engine Optimisation
-* analytics that show user traffic flow
+* Analytics that show user traffic flow
 
 ### Technologies Used
 * HTML5
@@ -79,7 +94,6 @@ Route to wireframe pics in github repository
 * Github and Gitpod
 
 ### Testing
-
 Testing Browsers and screens you tested it on
 * I tested the website by copying and pasting the Github pages link into Chrome and Edge Browsers
 * I used the chrome developer tools to test the projects appearance on multiple devices 
@@ -165,15 +179,31 @@ Contact Us page
 * Open link to project static website  https://andrew-code2020.github.io/CI-MS-1-Lean-Temple/
 
 ### Credits
-I consulted the following websites for inspiration and to learn how implement certain features into my project; 
+I consulted the following websites for inspiration and to learn how to implement certain features into my project; 
 * https://stackoverflow.com/
+  * Features influenced
+    * Background images
 * https://www.w3schools.com/default.asp
-* I copied the Jumbtron idea from our code along whiskey drop project. But I used the Bootrap code to and then modified it to fit the style of this project https://andrew-code2020.github.io/whiskeydrop/
+    * Features influenced
+      * Border
+      * Hover
+* I used Bootstrap through out the project to deploy a mobile first design principle.
+    * Features influenced
+      * Header
+      * Jumbotron
+      * Navbar 
+      * Alert Bar
+      * Form
+      * Dropdown
+      * Buttons
+      * Search Bar
+* Google Fonts I imported the text font Roboto from Google Fonts website https://fonts.google.com/  
+* I copied the Jumbtron idea from our code along whiskey drop project. I used the Bootrap to copy the code and then modified it to fit the style of this project. Referencing Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
 * I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project.
 * I frequently referred back to the following code institute modules to research how to construct certain features
   * HTML Fundamentals
   * CSS Fundamentals
-  * USer Centric Front End Development 
+  * User Centric Front End Development 
 
 ##### Content
 * The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is entirely fictional and none of it really exists.
@@ -183,4 +213,3 @@ I consulted the following websites for inspiration and to learn how implement ce
 
 ##### Acknowledgements
 * I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas.
-* I reviewed the following websites for ideas on problems I encountered throughout the project.

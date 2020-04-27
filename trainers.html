@@ -12,23 +12,26 @@
 	<title>Temple Lean</title>
 </head>
 
-<body>
+<body> <!-----------Website to be split into 3 parts Header (Top - Consistent) Section (Middle - Rotating content) Footer (Bottom - Consistent) ------------->
 	<header>
+        <!---- Alert Bar ---->
 		<div class="alert alert-danger" role="alert">
 			Alert! Due to COVID-19 we offering all our fitness videos online here <a
 				href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber" target="_blank">
 				<i class="fas fa-video"></i></a>
 		</div>
+        <!---- Nav Bar ---->
 		<div class="container-fluid black-bar">
 			<nav class="navbar navbar-expand-sm navbar-dark navbar-light">
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav">
+                    <!------Navigation links-------->
 						<li class="nav-item"><a href="index.html"> <i class="fas fa-home"></i> Home</a></li>
 						<li class="nav-item"><a href="fitness-classes.html"> <i class="fas fa-dumbbell"></i> Fitness
 								Classes
-								<!--Facilities--></a></li>
+								</a></li>
 						<li class="nav-item"><a class="current" href="trainers.html"> <i class="fas fa-user-friends"></i> Trainers</a>
 						</li>
 						<li class="nav-item"><a href="contact-us.html"> <i class="fas fa-phone-square-alt"></i> Contact
@@ -45,7 +48,7 @@
 	</header>
 
 	<section>
-		<!----Trainers - Modal Bootstrap click on picture to reveal more information on trainer----->
+		<!----Trainers information & Modals----->
 		<div class="row black-bar">
 			<div class="col-sm-6">
 				<img class="andrew-image" src="assets/images/andrew-lean-temple.jpg">
@@ -70,7 +73,7 @@
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
   Click here for more information on Andrew
 </button>
-					<!-- Modal -->
+					 <!---------- Andrew's Modal -------------->
 					<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
 						aria-labelledby="staticBackdropLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
@@ -82,6 +85,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
 								</div>
+                               
 								<div class="modal-body">
 									<p> <h7><strong>Occupation: </strong></h7>Founder of Lean Temple</p>
                                     <p> <h7><strong>Education: </strong> </h7>Andrew graduated from Trinity College Dublin in 2014 with Masters Degree in
@@ -112,6 +116,7 @@
 					<img class="julie-image" src="assets/images/julie-lean-temple.jpg">
 
 			</div>
+            <!--- Julie's Bio text -------------->
 					<div class="col-sm-6 julie-bio">
 						<h4>Name : Julie O' Leary BL</h4>
 						<h4>Fitness Qualifications</h4>
@@ -132,7 +137,7 @@
   Click here for more information on Julie
 </button>
 
-						<!-- Modal -->
+<!--- Julie's Modal -------------->
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
 							aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog" role="document">
@@ -169,6 +174,7 @@
 				</div>
 
 	</section>
+    	<!---------------Footer Divided into 3 blocks left middle and right-------->
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm">
@@ -176,15 +182,14 @@
 				<h4> Contact us </h4>
 				<p>Interested in our gym why not contact us and find out more by clicking in the icon below </p>
 				<a class="footer-media" href="contact-us.html"><i class="fas fa-phone-square-alt"></i>
-					<!--need to move this into center--></a>
+				</a>
 			</div>
 			<div class="col-sm">
 				<!--middle-->
 				<h4>Monthly Fitness Challenge</h4>
 				<p>Download our free monthly fitness challenge by clicking on the icon below</p>
 				<a class="footer-media" href="assets/downloads/lean-temple-monthly-fitness-challenge.pdf"
-					target="_blank"><i class="fas fa-file-download"></i>
-					<!--need to move this into center--></a>
+					target="_blank"><i class="fas fa-file-download"></i></a>
 			</div>
 
 			<div class="col-sm">
@@ -204,6 +209,7 @@
 		</div>
 
 	</footer>
+     <!--------Script for modals -------->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
