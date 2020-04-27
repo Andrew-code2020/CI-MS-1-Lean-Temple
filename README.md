@@ -165,6 +165,9 @@ Contact Us page
 * Open link to project static website  https://andrew-code2020.github.io/CI-MS-1-Lean-Temple/
 
 ### Credits
+I consulted the following websites for inspiration and to learn how implement certain features into my project; 
+* https://stackoverflow.com/
+* https://www.w3schools.com/default.asp
 
 ##### Content
 * The content was constucted by the student in line with inspiration from their experience as a fitness professional over 10 years.
