@@ -43,13 +43,6 @@ header {
     color:#fafafa;
  }
 
-
-@media only screen and (min-width: 768px) 
-{
-    .nav-item {padding-left: 60px;}
-    .nav-item {padding-right: 90px;}
- }
-
  /*--------------ask about leaving this out of the mobile version @media only screen and (max-width: 768px)
  {.drop-search, .nav-item} ------*/
 
@@ -92,7 +85,6 @@ background-color:#000000;
     margin-bottom:0;
     padding-bottom: 125px;
 }
-
 
 /*---------Code functioning--- */
 .fitness-callout {
@@ -272,4 +264,17 @@ color:#fafafa;
 ul{
     list-style-type: none; 
     filter:brightness(100%);
+}
+
+/*------------------------------------Media Query section-----------------------------------------*/
+@media only screen and (min-width: 768px) 
+{
+    .nav-item {padding-left: 60px;}
+    .nav-item {padding-right: 90px;}
+ }
+
+@media only screen and (max-width: 1024px)
+{ 
+    .jumbotron { padding-bottom:20px;} 
+
 }
