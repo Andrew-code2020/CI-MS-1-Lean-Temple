@@ -96,6 +96,7 @@ Route to wireframe pics in github repository
 ### Technologies Used
 * HTML5 - Used for structure and content of website
 * CSS3 - Used for personalised styling of website
+* Java script - Used for Modals only
 * Bootstrap 
     * Website https://getbootstrap.com/
     * Used to import generic styling
@@ -113,33 +114,42 @@ Route to wireframe pics in github repository
 ### Testing
 Testing Browsers and screens you tested it on
 * I tested the website by copying and pasting the Github pages link into Chrome and Edge Browsers
-* I used the chrome developer tools to test the projects appearance on multiple devices 
+* I used the chrome developer tools to test that the websites appearance and functionality was available across multiple devices listed below;
+  * Moto G4
+  * Galaxy S5
+  * Pixel 2
+  * Pixel 2 XL
+  * iPhone 5/SE
+  * iPhone 6/7/8
+  * iPhone 6/7/8 Plus
+  * iPhone X
+  * iPad
+  * iPad Pro
 
 #### Home/Landing page:
 
 ##### Header
 Alert Bar
-*  Go to the Temple Lean "Home/Landing" page or any other Temple Lean page
-*  Verify that by clicking on the video icon that a new tab opens and a youtube channel appears 
+*  Go to the Temple Lean "Home/Landing" page or any other Temple Lean page.
+*  Verify that by clicking on the video icon that a new tab opens and a youtube channel appears. 
 
 Nav Bar
-*  Go to the Temple Lean "Home/Landing" page or any other Temple Lean page
-*  Verify that the home bar is highlighted red
-*  Verify that this current page feature of highlight red occurs across all pages in our nav bar by clicking each one in turn
-*  The contact us form is non functional at this time 
+*  Go to the Temple Lean "Home/Landing" page or any other Temple Lean page.
+*  Verify that the home bar is highlighted red.
+*  Verify that this current page feature of highlight red occurs across all pages in our nav bar by clicking each one in turn.
 
 ##### Section
 
 Contact us
-*  Go to the Temple Lean "Home/Landing" page
-*  Click on the "Contact Us Button"
+*  Go to the Temple Lean "Home/Landing" page.
+*  Click on the "Contact Us Button".
 *  Verify that we are directed to the contact us page opens with basic gym information on the left and a form to fill out on the right
-*  When you fill out the form if you forget a required section eg name and email then a message please fill out this field appears.
-*  The contact us form is non functional at this time 
+*  When you fill out the form if you forget a required section eg name and email then a message "please fill out this field appears".
+*  The contact us form is non functional at this time. 
 
 Fitness challenge
 *  Go to the "Home/Landing" page
-*  Click on download fitness challenge button
+*  Click on the download fitness challenge button
 *  Verify that a new tab opens and pdf of this months fitness challenge appears
 *  Across each of the web pages when you see a download fitness challenge button or icon then you may verify that clicking on it opens a new tab with the same fitness challenge pdf. 
 
@@ -147,22 +157,25 @@ Fitness challenge
 
 Contact us
 *  Go to the Temple Lean "Home/Landing" page
-*  Scroll to the Footer
+*  Scroll down to the Footer
 *  Click on the "Contact Us icon" in the bottom left corner
-*  Verify that we are directed to the contact us page which opens opens with basic gym information on the left and a form to fill out on the right.
-*  Across each of the web pages when you see a Contact us icon or button or icon you may verify that by clicking on it opens the Contact us page. 
+*  Verify that we are directed to the contact us page which opens with basic gym information on the left and a Contact us form to fill out on the right.
+*  Across each of the Temple Lean website pages when you see a Contact us icon or button you may verify that by clicking on that it opens the Contact us page. 
 
 Fitness challenge
 *  Go to the "Home/Landing" page
 *  Scroll down to the Footer
-*  Click on download icon
+*  Click on the download icon
 *  Verify that a new tab opens and pdf of this months fitness challenge appears
 
 Links to Social Media
 *  Go to the "Home/Landing" page
 *  Scroll down to the Footer
 *  Click on each social media icon
-*  Verify that a new tab opens and that relevant social media platform and account appears
+*  Verify that a new tab opens and that the relevant social media platform and account appears
+
+##### Header and Footer
+* Across each of the Temple Lean Web pages you may verify that the Header and the Footer have the same features outlined above  
 
 
 #### Fitness Classes page:
@@ -174,7 +187,8 @@ Fitness Classes
 #### Trainers page:
 Trainers page
 *  Go to the "Trainers" page
-*  Verify that when you click on each modal button more information appears for each of the following trainers "Andrew Burns & Julie O' Leary"  
+*  Verify that when you click on each button for more information the modal appears for each of the following trainers "Andrew Burns & Julie O' Leary"
+*  You may verify that information is different but the underlying structure of the modals information is the same  
 
 
 #### Contact Us page:
@@ -190,7 +204,15 @@ Contact Us page
 *  Verify that you can enter details into the Temple Lean Contact Us Form and hit Send My Fitness Message to Temple Lean!. Note the form is non functional at this time.
 
 
+
 *  The Project was built with mobile first design principles
+
+#### Appearance differences on other devices
+* On small mobile devices such as phones the nav bar will collapse into a red "burger" icon.
+* The programming of the website allows it to adjust column widths on smaller devices and stack elements in a display to fit different browsers mentioned earlier and different devices mentioned earlier.
+
+#### Bugs
+* Galaxy 5S Jumbotron seems to overlay on top of the footer. Despite my best efforts I was unable to solve this. 
 
 ### Deployment
 * Deployment project on Github
@@ -209,6 +231,8 @@ I consulted the following websites for inspiration and to learn how to implement
 * I used Bootstrap through out the project to deploy a mobile first design principle.
     * Features influenced
       * Header
+      * Footer
+      * Section
       * Jumbotron
       * Navbar 
       * Alert Bar
@@ -217,7 +241,7 @@ I consulted the following websites for inspiration and to learn how to implement
       * Buttons
       * Search Bar
 * Google Fonts I imported the text font Roboto from Google Fonts website https://fonts.google.com/  
-* I copied the Jumbtron idea from our code along whiskey drop project. I used the Bootrap to copy the code and then modified it to fit the style of this project. Referencing Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
+* I copied the Jumbtron idea from our code along whiskey drop project. I used Boostrap to copy the code and then modified it to fit the style of this project. Reference to Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
 * I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project.
 * I frequently referred back to the following code institute modules to research how to construct certain features
   * HTML Fundamentals
@@ -225,10 +249,18 @@ I consulted the following websites for inspiration and to learn how to implement
   * User Centric Front End Development 
 
 ##### Content
-* The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is entirely fictional and none of it really exists.
+* The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is designed to be entirely fictional and the business does not exist. Andrew and Julie really do exist. Andrew is the author of this project and Julie is his partner. Andrew's qualifications are real and his biography is real.Julie's qualifications as a Lawyer are real but her Yoga and Pilates qualifications are a work of fiction.
 
 ##### Media
-* The photos used in this site were obtained from pexels.com and photos in the students personal library.
+* The photos used in this site were obtained from pexels.com
+    * These photos are placed in the website on the following pages; 
+      * Landing Page Jumbotron
+      * Fitness Classes page
+      * Monthly Fitness Challenges (bottom picture) 
+* The other photos were taken from the students personal library
+   * These photos are placed in the website on the following pages;
+        * Trainers page 
+        * Monthly Fitness Challenges (Top picture) 
 
 ##### Acknowledgements
 * I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas.
