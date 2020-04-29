@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/ba4b42ff38.js" crossorigin="anonymous"></script>
-	
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Temple Lean</title>
 </head>
 
-<body> <!-----------Website to be split into 3 parts Header (Top - Consistent) Section (Middle - Rotating content) Footer (Bottom - Consistent) ------------->
+<body>
+	<!--Web pages to be split into 3 parts Header (Top - Consistent content) Section (Middle - Rotating content) Footer (Bottom - Consistent content)-->
 	<header>
-        <!---- Alert Bar ---->
+		<!--Alert Bar to replace a special offer with COVID-19 warning and directions to our online Fitness classes-->
 		<div class="alert alert-danger" role="alert">
 			Alert! Due to COVID-19 we offering all our fitness videos online here <a
 				href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber" target="_blank">
 				<i class="fas fa-video"></i></a>
 		</div>
-        <!---- Nav Bar ---->
+		<!--Nav Bar Went with a conventional Navbar from Bootstrap to make the site intuitive. Collapsed the Navbar on mobile device to make the mobile view more visually appealing Remove the search button and replaced it with an icon because it looked better-->
 		<div class="container-fluid black-bar">
 			<nav class="navbar navbar-expand-sm navbar-dark navbar-light">
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav">
-                    <!------Navigation links-------->
+						<!--Navigation links We wanted the user to know where they were on the web page so we added a "current" class which highlights the current page the user is on in red. The icons were added to further deliver intuitive navigation-->
 						<li class="nav-item"><a href="index.html"> <i class="fas fa-home"></i> Home</a></li>
 						<li class="nav-item"><a href="fitness-classes.html"> <i class="fas fa-dumbbell"></i> Fitness
 								Classes
-								</a></li>
-						<li class="nav-item"><a class="current" href="trainers.html"> <i class="fas fa-user-friends"></i> Trainers</a>
+							</a></li>
+						<li class="nav-item"><a class="current" href="trainers.html">
+								<i class="fas fa-user-friends"></i> Trainers</a>
 						</li>
 						<li class="nav-item"><a href="contact-us.html"> <i class="fas fa-phone-square-alt"></i> Contact
 								us</a>
@@ -73,7 +73,7 @@
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
   Click here for more information on Andrew
 </button>
-					 <!---------- Andrew's Modal -------------->
+					<!---------- Andrew's Modal -------------->
 					<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
 						aria-labelledby="staticBackdropLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
@@ -85,23 +85,37 @@
           <span aria-hidden="true">&times;</span>
         </button>
 								</div>
-                               
+
 								<div class="modal-body">
-									<p><h7><strong>Occupation: </strong></h7>Founder of Lean Temple</p>
-                                    <p> <h7><strong>Education: </strong> </h7>Andrew graduated from Trinity College Dublin in 2014 with Masters Degree in
-										the field of Exercise Science</p>
+									<p>
+										<h7><strong>Occupation: </strong></h7>Founder of Lean Temple
+									</p>
+									<p>
+										<h7><strong>Education: </strong> </h7>Andrew graduated from Trinity College
+										Dublin in 2014 with Masters Degree in
+										the field of Exercise Science
+									</p>
 									<h7> <strong>Physical Activity History:</strong> </h7>
-                                    <p>Andrew has completed the following physical activity challenges;
+									<p>Andrew has completed the following physical activity challenges;
 										<ul>
 											<li>7 Marathons</li>
-                                            <li>Toughathlon</li>
-                                            <li>Jagged Edge Cycling Tour</li>
-                                        </ul>
+											<li>Toughathlon</li>
+											<li>Jagged Edge Cycling Tour</li>
+										</ul>
 									</p>
-									<p><h7><strong>Class Style:</strong> </h7>Andrew likes to combine high intensity cardio training with
-										functional strength training in his classes</p>
-                                    <p><h7><strong>Community work:</strong> </h7>Julie and Andrew are Run Directors at the Glen River parkrun</p>
-                                    <p><h7><strong>Favourite Quote:</strong> </h7>Motivation comes from Latin 'movere' meaning to move. Move first and then this may reveal your motivation</p>
+									<p>
+										<h7><strong>Class Style:</strong> </h7>Andrew likes to combine high intensity
+										cardio training with
+										functional strength training in his classes
+									</p>
+									<p>
+										<h7><strong>Community work:</strong> </h7>Julie and Andrew are Run Directors at
+										the Glen River parkrun
+									</p>
+									<p>
+										<h7><strong>Favourite Quote:</strong> </h7>Motivation comes from Latin 'movere'
+										meaning to move. Move first and then this may reveal your motivation
+									</p>
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -116,7 +130,7 @@
 					<img class="julie-image" src="assets/images/julie-lean-temple.jpg" alt= "image of Trainer Julie">
 
 			</div>
-            <!--- Julie's Bio text -------------->
+					<!--- Julie's Bio text -------------->
 					<div class="col-sm-6 julie-bio">
 						<h4>Name : Julie O' Leary BL</h4>
 						<h4>Fitness Qualifications</h4>
@@ -137,7 +151,7 @@
   Click here for more information on Julie
 </button>
 
-<!--- Julie's Modal -------------->
+						<!--- Julie's Modal -------------->
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
 							aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog" role="document">
@@ -150,19 +164,31 @@
         </button>
 									</div>
 									<div class="modal-body">
-										<p> <h7><strong>Occupation: </strong></h7>Immigration Lawyer with Nasc Migrant and Refugee rights.
-											By night Julie helps Andrew run Temple Lean.</p>
+										<p>
+											<h7><strong>Occupation: </strong></h7>Immigration Lawyer with Nasc Migrant
+											and Refugee rights.
+											By night Julie helps Andrew run Temple Lean.
+										</p>
 										<h7><strong>Physical Activity History; </strong></h7>
-                                        <p>Julie has completed the following physical activity challenges</p>
+										<p>Julie has completed the following physical activity challenges</p>
 										<ul>
 											<li>Dublin Marathon 2017 & 2018</li>
 											<li>Tour De Munster Cycle 2016</li>
-                                            <li>Barcelona Half Marathon 2017</li>
-                                            <li>Loop De Haag 2018</li>
+											<li>Barcelona Half Marathon 2017</li>
+											<li>Loop De Haag 2018</li>
 										</ul>
-										<p><h7><strong>Class Style: </strong></h7>Julie combines a tough fitness class with mindfullness</p>
-                                        <p><h7><strong>Community Work: </strong></h7>Julie and Andrew are Run Directors at the Glen River parkrun</p>
-                                        <p><h7><strong>Motivational Quote: </strong></h7>There is a short distance between a clap on the back and a kick up the backside. Enda Kenny</p>
+										<p>
+											<h7><strong>Class Style: </strong></h7>Julie combines a tough fitness class
+											with mindfullness
+										</p>
+										<p>
+											<h7><strong>Community Work: </strong></h7>Julie and Andrew are Run Directors
+											at the Glen River parkrun
+										</p>
+										<p>
+											<h7><strong>Motivational Quote: </strong></h7>There is a short distance
+											between a clap on the back and a kick up the backside. Enda Kenny
+										</p>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -174,18 +200,18 @@
 				</div>
 
 	</section>
-    	<!---------------Footer Divided into 3 blocks left middle and right-------->
+	<!--Footer divided into 3 blocks left middle and right on large screen. This collapses on a small screen to have each div occupy the full width of the screen because it looks better on a smaller device-->
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm">
-				<!--Bottom left-->
+				<!--Bottom left large device added footer media class to style the icon and move it to the center because we felt it looked better-->
 				<h4> Contact us </h4>
 				<p>Interested in our gym why not contact us and find out more by clicking in the icon below </p>
 				<a class="footer-media" href="contact-us.html"><i class="fas fa-phone-square-alt"></i>
 				</a>
 			</div>
 			<div class="col-sm">
-				<!--middle-->
+				<!--middle large device added footer media class to style the icon and move it to the center because we felt it looked better. Also included target blank to allow the user to download the pdf of the Monthly Fitness Challenge and still be able to come back to the Temple Lean page easily-->
 				<h4>Monthly Fitness Challenge</h4>
 				<p>Download our free monthly fitness challenge by clicking on the icon below</p>
 				<a class="footer-media" href="assets/downloads/lean-temple-monthly-fitness-challenge.pdf"
@@ -193,7 +219,7 @@
 			</div>
 
 			<div class="col-sm">
-				<!--bottom right-->
+				<!--bottom right large device. Added Social media class to each icon to style the icons similarly and maintain a consistent experience for the user. The links include a target blank so that the user will not forget the web page they came from. The hover green is included to indicate to the user that they may click through this icon to more content-->
 				<h4>Social Media</h4>
 				<p>Follow us on Social Media by clicking on the icons below</p>
 				<a class="social-media" href="https://www.instagram.com/andrew_burns_moves/"
@@ -209,7 +235,7 @@
 		</div>
 
 	</footer>
-     <!--------Script for modals -------->
+	<!--------Script for modals -------->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
