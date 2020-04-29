@@ -74,7 +74,7 @@ background-color:#000000;
 
 .jumbotron{
     background-image:url("../images/temple-lean-bg.jpg");
-    background-size:100% no-repeat center fixed;
+    background-size:100%;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -140,7 +140,7 @@ h2{
 .weight-room{
   background-image:url("../images/weight-room-bg.jpg");
   background-size:100% 100%; 
-  filter:brightness (80%);
+  filter:brightness(80%);
   color:#ffffff; 
   text-shadow:2px 2px #f71505 ;    
 }
@@ -148,7 +148,7 @@ h2{
 .cardio-gym{
   background-image:url("../images/cardio-room.jpg");
   background-size:100% 100%;
-  filter:brightness (80%);
+  filter:brightness(80%);
   color:#fafafa; 
   text-shadow:2px 2px #f71505 ;  
 }
@@ -156,7 +156,7 @@ h2{
 .killer-kettlebells{
 background-image:url("../images/killer-kettlebells.jpg");
   background-size:100% 100%;
-  filter:brightness (80%);
+  filter:brightness(80%);
   color:#fafafa; 
   text-shadow:2px 2px #f71505 ; 
    
@@ -164,7 +164,7 @@ background-image:url("../images/killer-kettlebells.jpg");
 .grit-fitness{
 background-image:url("../images/grit-fitness.jpg");
   background-size:100% 100%; 
-  filter:brightness (80%);
+  filter:brightness(80%);
   color:#fafafa; 
   text-shadow:2px 2px #f71505 ;
 }
@@ -180,7 +180,7 @@ background-image:url("../images/yin-yoga.jpg");
 .power-pilates{
 background-image:url("../images/power-pilates.jpg");
   background-size:100% 100%;
-  filter:brightness (80%);
+  filter:brightness(80%);
   color:#fafafa; 
   text-shadow:2px 2px #f71505;  
 }
@@ -233,9 +233,8 @@ margin-top: 50px;
 
 .color-bg{
   background-color: #000000;
-  border-color: 2px solid #f71505; 
-  border-left-color: #f71505;
-  border-right-color: #f71505;  
+  border-color: #f71505; 
+  
 }
 
 .gym-info h2, .gym-info p, .gym-info a{
@@ -257,7 +256,7 @@ color:#fafafa;
   color: #fafafa;
   text-shadow: 2px 2px #f71505;
   font-family: Roboto, sans-serif; 
-  filter:brightness(150%);   
+  filter: brightness(150%);   
 }
 
 ul{
