@@ -60,7 +60,7 @@ header {
  }
 
 
-/*--------Div left white "gutter" far left and right outside nav bar*/
+/*--------Div caused a white "gutter" far left and right outside on the nav bar. Inserted black background to cover fill it in and maintain consistent color*/
 .black-bar{
 background-color:#000000;
 
@@ -70,7 +70,7 @@ background-color:#000000;
     background-color:#f71505;
 }
 
-/*--------------------------------------------Section Landing page ( Need to fix image in mobile deviceimages directory works + Source code from Whiskey drop project)/*/
+/*--------------------------------------------Section Landing page (Idea from Whiskey drop project and code from Bootstrap referenced in read me)/*/
 
 .jumbotron{
     background-image:url("../images/temple-lean-bg.jpg");
@@ -89,7 +89,6 @@ background-color:#000000;
 /*---------Code functioning--- */
 .fitness-callout {
     background-color:#000000; 
-    height: 100vh;
     margin-bottom:0;
 } 
 
@@ -273,8 +272,4 @@ ul{
     .nav-item {padding-right: 90px;}
  }
 
-@media only screen and (max-width: 1024px)
-{ 
-    .jumbotron { padding-bottom:20px;} 
 
-}
