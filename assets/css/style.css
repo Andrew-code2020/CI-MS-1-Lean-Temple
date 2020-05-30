@@ -1,14 +1,19 @@
+/*---Fonts--*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
 
 /*--------------------------------------------Header Alert Bar--------------------------------*/
 .alert-danger
 {
- background-color: #f71505;
- color:#fafafa;
+ background-color:#ff9999;
+ color: #ffffff;
  text-align:center;
- font-family: Roboto, sans-serif;
+ font-family: Spectral, sans-serif;
+ font-weight:bold;
  margin-bottom:0;
- border-color: #f71505;
+ border-color: #ff9999;
  border-radius: 0%;
  }
  
@@ -25,14 +30,14 @@ i:hover, a:hover{
  /*--------------------------------------------Header-----NAVBAR------------*/
 
 header {
-    border-bottom: 2px solid #f71505;
+    border-bottom: 2px solid #9999ff;
 }
 
   .navbar-light{
-     background-color: #000000;
+     background-color: #9999ff;
      margin:0;
      font-family: Roboto, sans-serif;
-     color:#fafafa;
+     color:#ffff99;
      text-align: left;
      padding: 20px 20px 20px 20px;
      width:100%;
@@ -56,13 +61,13 @@ header {
  }
 
  .navbar-nav .current{
-     background-color: #f71505;
+     background-color: #ff9999;
  }
 
 
 /*--------Div caused a white "gutter" far left and right outside on the nav bar. Inserted black background to cover fill it in and maintain consistent color*/
 .black-bar{
-background-color:#000000;
+background-color:#9999ff;
 
 }
 
@@ -88,7 +93,7 @@ background-color:#000000;
 
 /*---------Code functioning--- */
 .fitness-callout {
-    background-color:#000000; 
+    background-color:#9999ff; 
     margin-bottom:0;
 } 
 
